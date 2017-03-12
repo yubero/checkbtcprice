@@ -1,0 +1,16 @@
+{
+  "name": "cryptocurrency-buyer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitstamp": "^1.0.1",
+    "coinbase": "^2.0.6",
+    "moment": "^2.17.1"
+  }
+}
