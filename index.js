@@ -6,6 +6,11 @@ const maxPrice = 1150;
 
 function getCurrentBtcPrice() {
   bitstamp.ticker('btceur', function(error, result) {
+    if (error) {
+      console.log(error);
+      return;
+    }
+
     var currentBtcPrice = result.last;
     var datetime = moment.unix(result.timestamp).format("MM/DD/YYYY HH:mm:ss");
 
